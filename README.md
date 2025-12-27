@@ -17,7 +17,7 @@
 
 ## Finnothon 2025 - Multi-Track Implementation
 
-This project implements **multiple problem statements** from Finnothon 2024, with Track 3 (Fraud Detection API) as the primary focus.
+This project implements **multiple problem statements** from Finnothon 2025, with Track 3 (Fraud Detection API) as the primary focus.
 
 | Track | Name | Status | Description |
 |-------|------|--------|-------------|
