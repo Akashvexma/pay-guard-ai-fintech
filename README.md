@@ -15,7 +15,7 @@
 
 ---
 
-## Finnothon 2024 - Multi-Track Implementation
+## Finnothon 2025 - Multi-Track Implementation
 
 This project implements **multiple problem statements** from Finnothon 2024, with Track 3 (Fraud Detection API) as the primary focus.
 
@@ -198,7 +198,7 @@ UI/UX design, product strategy
 
 ## License
 
-MIT License - Built with ❤️ for Finnothon 2024
+MIT License - Built with ❤️ for Finnothon 2025
 
 ---
 
