@@ -9,7 +9,7 @@
 
 **Enterprise-grade fraud detection and financial security for businesses of all sizes.**
 
-[Live Demo](https://payguard-ai.vercel.app) | [API Documentation](#api-reference) | [Meet the Team](#team)
+[Live Demo](https://payguard-ai.vercel.app) | [API Documentation](#api-reference) | [Meet the Team](#team) | [YOUTUBE WALKTHROUGH](https://youtu.be/anrCgi86an8)
 
 </div>
 
