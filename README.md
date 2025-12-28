@@ -127,7 +127,7 @@ Beyond the problem statements, we've added:
 
 ```bash
 # Clone and install
-git clone https://github.com/Akashvexma/payguard-ai.git
+git clone https://github.com/Akashvexma/pay-guard-ai-fintech.git
 cd payguard-ai
 pnpm install
 pnpm dev
