@@ -3,7 +3,7 @@
 <div align="center">
 
 ![PayGuard AI](https://img.shields.io/badge/PayGuard-AI-00ffc8?style=for-the-badge&labelColor=0a0e1a)
-![Finnothon 2024](https://img.shields.io/badge/Finnothon-2024-ff6b6b?style=for-the-badge)
+![Finnothon 2025](https://img.shields.io/badge/Finnothon-2024-ff6b6b?style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178c6?style=for-the-badge&logo=typescript&logoColor=white)
 
