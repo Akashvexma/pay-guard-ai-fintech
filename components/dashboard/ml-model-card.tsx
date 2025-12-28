@@ -25,7 +25,7 @@ export function MLModelCard({ compact = false }: MLModelCardProps) {
     fraudCases: 492,
     features: 30,
     modelType: "Logistic Regression",
-    lastTrained: "2024-01-15",
+    lastTrained: "2025-01-15",
     version: "1.0.0",
   }
 

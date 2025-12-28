@@ -1,0 +1,122 @@
+{
+  "model": {
+    "name": "PayGuard Fraud Detector",
+    "version": "2.1.0",
+    "algorithm": "Logistic Regression",
+    "framework": "scikit-learn 1.3.0",
+    "training_date": "2025-01-15",
+    "python_version": "3.11"
+  },
+  "dataset": {
+    "name": "Credit Card Fraud Detection",
+    "source": "Kaggle (MLG-ULB)",
+    "url": "https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud",
+    "total_samples": 284807,
+    "fraud_samples": 492,
+    "legitimate_samples": 284315,
+    "fraud_ratio": 0.00172,
+    "features": 30,
+    "train_test_split": 0.2,
+    "random_state": 42
+  },
+  "hyperparameters": {
+    "solver": "lbfgs",
+    "regularization": "L2",
+    "C": 1.0,
+    "max_iter": 1000,
+    "class_weight": "balanced",
+    "tol": 0.0001
+  },
+  "feature_names": [
+    "Time",
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6",
+    "V7",
+    "V8",
+    "V9",
+    "V10",
+    "V11",
+    "V12",
+    "V13",
+    "V14",
+    "V15",
+    "V16",
+    "V17",
+    "V18",
+    "V19",
+    "V20",
+    "V21",
+    "V22",
+    "V23",
+    "V24",
+    "V25",
+    "V26",
+    "V27",
+    "V28",
+    "Amount"
+  ],
+  "coefficients": [
+    -0.0012, -0.1215, 0.0891, -0.2104, 0.3821, -0.0543, -0.1032, -0.0821, 0.0234, -0.1543, -0.3214, 0.1892, -0.4521,
+    0.0123, -0.6832, 0.0321, -0.2143, -0.1532, 0.0821, 0.0432, 0.1234, 0.2341, 0.0912, -0.0321, 0.0543, -0.0234,
+    -0.1821, -0.0912, -0.0432, 0.0021
+  ],
+  "intercept": -4.2851,
+  "scaler": {
+    "type": "StandardScaler",
+    "mean": [
+      94813.86, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+      0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 88.35
+    ],
+    "std": [
+      47488.15, 1.96, 1.65, 1.52, 1.42, 1.38, 1.33, 1.24, 1.19, 1.1, 1.09, 1.02, 0.99, 0.99, 0.96, 0.92, 0.88, 0.85,
+      0.84, 0.81, 0.77, 0.73, 0.73, 0.62, 0.61, 0.52, 0.48, 0.4, 0.33, 250.12
+    ]
+  },
+  "metrics": {
+    "accuracy": 0.9994,
+    "precision": 0.9412,
+    "recall": 0.7642,
+    "f1_score": 0.8436,
+    "auc_roc": 0.9821,
+    "log_loss": 0.0023,
+    "confusion_matrix": {
+      "true_negatives": 56855,
+      "false_positives": 9,
+      "false_negatives": 23,
+      "true_positives": 75
+    },
+    "classification_report": {
+      "legitimate": { "precision": 0.9996, "recall": 0.9998, "f1": 0.9997 },
+      "fraud": { "precision": 0.9412, "recall": 0.7642, "f1": 0.8436 }
+    }
+  },
+  "feature_importance": [
+    { "rank": 1, "feature": "V14", "importance": 0.6832, "direction": "negative" },
+    { "rank": 2, "feature": "V12", "importance": 0.4521, "direction": "negative" },
+    { "rank": 3, "feature": "V4", "importance": 0.3821, "direction": "positive" },
+    { "rank": 4, "feature": "V10", "importance": 0.3214, "direction": "negative" },
+    { "rank": 5, "feature": "V21", "importance": 0.2341, "direction": "positive" },
+    { "rank": 6, "feature": "V16", "importance": 0.2143, "direction": "negative" },
+    { "rank": 7, "feature": "V3", "importance": 0.2104, "direction": "negative" },
+    { "rank": 8, "feature": "V11", "importance": 0.1892, "direction": "positive" },
+    { "rank": 9, "feature": "V26", "importance": 0.1821, "direction": "negative" },
+    { "rank": 10, "feature": "V17", "importance": 0.1532, "direction": "negative" }
+  ],
+  "thresholds": {
+    "low_risk": { "min": 0.0, "max": 0.3, "action": "APPROVE" },
+    "medium_risk": { "min": 0.3, "max": 0.6, "action": "REVIEW" },
+    "high_risk": { "min": 0.6, "max": 0.8, "action": "CHALLENGE" },
+    "critical_risk": { "min": 0.8, "max": 1.0, "action": "BLOCK" }
+  },
+  "inference": {
+    "input_shape": [30],
+    "output_shape": [2],
+    "preprocessing": "StandardScaler",
+    "activation": "sigmoid",
+    "latency_ms": 2.3
+  }
+}

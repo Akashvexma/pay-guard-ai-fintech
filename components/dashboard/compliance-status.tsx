@@ -11,7 +11,7 @@ const complianceItems = [
     status: "compliant",
     description: "Payment Card Industry Data Security Standard",
     icon: Lock,
-    lastAudit: "Dec 15, 2024",
+    lastAudit: "Dec 15, 2025",
     progress: 100,
   },
   {
@@ -19,7 +19,7 @@ const complianceItems = [
     status: "compliant",
     description: "General Data Protection Regulation (EU)",
     icon: Globe,
-    lastAudit: "Dec 10, 2024",
+    lastAudit: "Dec 10, 2025",
     progress: 100,
   },
   {
@@ -43,7 +43,7 @@ const complianceItems = [
     status: "compliant",
     description: "HMAC authentication, rate limiting, IP allowlisting",
     icon: Server,
-    lastAudit: "Dec 20, 2024",
+    lastAudit: "Dec 20, 2025",
     progress: 100,
   },
 ]

@@ -699,7 +699,7 @@ export default function LandingPage() {
             <div className="flex items-center gap-2">
               <Hexagon className="h-6 w-6 text-[#00ffc8] stroke-[1.5]" />
               <span className="font-bold text-white">PayGuard AI</span>
-              <span className="text-[#6b7b9a] text-sm ml-2">| FinTech Hackathon 2024</span>
+              <span className="text-[#6b7b9a] text-sm ml-2">| FinTech Hackathon 2025</span>
             </div>
             <div className="flex items-center gap-6 text-sm text-[#6b7b9a]">
               <Link href="/team" className="hover:text-[#00ffc8] transition-colors">

@@ -1,0 +1,3 @@
+{
+  "/api/batch-analyze/route": "app/api/batch-analyze/route.js"
+}
