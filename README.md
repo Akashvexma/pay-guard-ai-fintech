@@ -9,7 +9,7 @@
 
 **Enterprise-grade fraud detection and financial security for businesses of all sizes.**
 
-[Live Demo](https://v0-fin-tech-hackathon-solution.vercel.app) | [API Documentation](#api-reference) | [Meet the Team](#team) | [YOUTUBE WALKTHROUGH](https://youtu.be/anrCgi86an8)
+[Live Demo](https://v0-fin-tech-hackathon-solution.vercel.app) | [Meet the Team](#team) | [YOUTUBE WALKTHROUGH](https://youtu.be/anrCgi86an8)
 
 </div>
 
